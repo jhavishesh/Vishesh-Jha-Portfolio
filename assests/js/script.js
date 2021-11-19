@@ -41,7 +41,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Saurav Mukherjee";
+        document.title = "Portfolio | Vishesh Jha";
         $("#favicon").attr("href","assests/images/favicon.png");
     }
     else {
@@ -53,7 +53,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["front end development", "Data Science", "Android development", "Machine Learning"],
+        strings: ["Front End Development", "Competitive Programming", "Open Source", "Machine Learning"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
@@ -97,21 +97,9 @@ document.onkeydown = function(e) {
   }
 }
 
-// Start of Tawk.to Live Chat
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/60f70460649e0a0a5ccd22a7/1fb2ei71o';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-// End of Tawk.to Live Chat
 
 
-
-/* ===== SCROLL REVEAL ANIMATION ===== */
+/* ===== SCROLL REVEAL ANIMATION ====  */
 const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
@@ -155,6 +143,9 @@ srtop.reveal('.work .box',{interval: 200});
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline',{delay: 400});
 srtop.reveal('.experience .timeline .container',{interval: 400}); 
+
+/* SCROLL Achievements */
+srtop.reveal('.ach .box',{interval: 200}); 
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container',{delay: 400});
