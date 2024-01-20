@@ -53,7 +53,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Front End Development", "Competitive Programming", "Open Source", "Machine Learning"],
+        strings: ["Full Stack Development", "Competitive Programming", "Open Source", "Machine Learning"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
